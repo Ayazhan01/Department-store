@@ -1,0 +1,29 @@
+.footer_btn:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 850px){
+
+    .footer_head{
+        display: none;
+    }
+    .footer_middle{
+        display: none;
+    }
+ 
+   
+}
+
+@media screen and (max-width: 450px){
+ 
+
+    .footer_head{
+        display: none;
+    }
+    .footer_middle{
+        display: none;
+    }
+    
+   
+}

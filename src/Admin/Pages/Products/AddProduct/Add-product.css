@@ -1,0 +1,23 @@
+.category-link {
+     display: flex;
+     flex-direction: column;
+     border-right: 1px solid #999;
+     border-top: 1px solid #999;
+}
+
+.category-link p {
+     padding: 10px;
+     cursor: pointer;
+     font-weight: 600;
+     border-bottom: 1px solid #999;
+}
+
+.category-link>p:hover {
+     background: rgb(215, 215, 215);
+}
+
+.add-product input {
+     width: 48%;
+     margin: 10px 5px;
+     border: 1px solid rgb(31, 29, 29);
+}

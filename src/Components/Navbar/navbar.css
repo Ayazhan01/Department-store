@@ -1,0 +1,189 @@
+#navsearchbox {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    transition: all 600ms;
+    justify-content: center;
+    background-color: rgb(247, 246, 246);
+    border: 1px solid white;
+}
+
+#navsearchbox:hover {
+    border: 1px solid rgb(189, 183, 183);
+    background-color: white;
+}
+
+#navsearch {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+#navmen, #navwomen, #navkid, #navhome, #navbeauty, #navstudio {
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 70px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#navhome {
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 130px;
+}
+
+
+#navmen:hover {
+    border-bottom: 3px solid rgb(235, 24, 24);
+
+}
+
+#navwomen:hover {
+    border-bottom: 3px solid rgb(240, 12, 99);
+}
+
+#navkid:hover {
+    border-bottom: 3px solid rgb(250, 102, 48);
+
+}
+
+#navhome:hover {
+    border-bottom: 3px solid rgb(236, 182, 65);
+}
+
+#navbeauty:hover {
+    border-bottom: 3px solid rgb(23, 143, 143);
+}
+
+#navstudio:hover {
+    border-bottom: 3px solid rgb(241, 39, 72);
+}
+
+
+/* *mega menu */
+.nav-link {
+    /* transition: all 200ms; */
+}
+
+.nav-link:hover .mega-menu {
+    display: block;
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav-link p {
+    transition: all 600ms;
+    cursor: pointer;
+}
+
+.nav-link>a {
+    /* font-size: 14px !important; */
+    /* letter-spacing: 1px; */
+}
+
+.nav-link p:hover {
+    color: #E53E3E;
+    font-weight: 600;
+}
+
+.mega-menu {
+    left: 0;
+    top: 110%;
+    width: 100%;
+    z-index: 999;
+    margin: auto;
+    height: 400px;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    /* transition: all 50ms; */
+}
+
+.mega-menu-container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: #ffff;
+    border-top: 1px solid rgb(218, 215, 215);
+}
+
+
+/* studio */
+.nav-link-studio {
+    position: relative;
+}
+
+.nav-link-studio:hover .mega-menu-studio {
+    top: 100%;
+    opacity: 1;
+    display: block;
+    visibility: visible;
+}
+
+.mega-menu-studio {
+    opacity: 0;
+    top: 110%;
+    left: -165px;
+    width: 400px;
+    z-index: 999;
+    margin: auto;
+    height: 400px;
+    position: absolute;
+    visibility: hidden;
+    transition: all 200ms;
+
+}
+
+.mega-menu-container-studio {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: #ffff;
+    border-top: 1px solid rgb(218, 215, 215);
+    /* border: 1px solid red; */
+}
+
+
+/* *profle */
+.nav-link-profile:hover .mega-menu-profile {
+    top: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.mega-menu-profile {
+    left: 5;
+    top: 99%;
+    width: 100;
+    opacity: 0;
+    z-index: 999;
+    margin: auto;
+    height: max-content;
+    position: absolute;
+    visibility: hidden;
+    transition: all 300ms;
+}
+
+.mega-menu-container-profile {
+    width: max-content;
+    height: 100%;
+    padding-bottom: 10px;
+    margin: auto;
+    background-color: #ffff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.mega-menu-container-profile a:hover {
+    font-weight: 600;
+}
